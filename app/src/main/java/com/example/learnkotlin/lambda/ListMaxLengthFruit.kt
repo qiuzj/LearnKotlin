@@ -10,8 +10,10 @@ fun main() {
     }
     println("max length fruit is " + maxLengthFruit)
 
+
+    val list2 = listOf("Apple", "Banana", "Orange", "Pear", "Grape", "Watermelon")
     val lambda = { fruit: String -> fruit.length }
-    val maxLengthFruit3 = list.maxByOrNull(lambda)
+    val maxLengthFruit3 = list2.maxByOrNull(lambda)
     println("max length fruit is " + maxLengthFruit3)
 
     // 很多等价写法
